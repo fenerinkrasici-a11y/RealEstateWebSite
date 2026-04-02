@@ -46,7 +46,7 @@ details:
     ],
   },
   {
-    slug: "eksiogl-evleri",
+    slug: "eksioglu-evleri",
     title: "EKŞİOĞLU EVLERİ",
     location: "İstanbul, Türkiye",
     client: "2022",
@@ -104,7 +104,7 @@ details:
   },
   {
     slug: "gungoren-sari-apartman",
-    title: "GÜNGREN SARI APARTMAN PROJESİ",
+    title: "GÜNGÖREN SARI APARTMAN PROJESİ",
     location: "İstanbul, Türkiye",
     client: "2018",
     type: "Kat Karşılığı İnşaat Projesi",
