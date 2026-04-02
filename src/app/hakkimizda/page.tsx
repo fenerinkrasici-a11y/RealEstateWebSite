@@ -48,7 +48,7 @@ export default function AboutPage() {
             <div className="about-section">
               <figure>
                 <Image
-                  src="/images/projects/s/s4.png"
+                  src="/images/projects/s/S4.png"
                   alt="Karadeniz İnşaat"
                   width={1200}
                   height={800}
