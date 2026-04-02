@@ -26,7 +26,7 @@ const team = [
   },
   {
     name: "BAYRAM AYDIN",
-    title: "Uzman Emlak Danışmanı",
+    title: "Genel Müdür Yardımcısı",
     bio: "Specialty Pipefitter, Ironworker, and Quality Control/Safety Manager with experience across heavy industrial, commercial, and critical infrastructure projects.",
     image: "/images/services/bay.jpg",
   },
