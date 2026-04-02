@@ -10,20 +10,7 @@ const navLinks = [
   { href: "/", label: "Anasayfa" },
   { href: "/hakkimizda", label: "Hakkımızda" },
   { href: "/hizmetlerimiz", label: "HİZMETLERİMİZ" },
-  {
-    href: "/projeler",
-    label: "Projeler",
-    // children: [
-    //   {
-    //     href: "/tamamlanan-projeler",
-    //     label: "Tamamlanan Projeler",
-    //   },
-    //   {
-    //     href: "/devam-eden-projeler",   
-    //     label: "Devam Eden Projeler",
-    //   },
-    // ],
-  },
+  { href: "/projeler", label: "Projeler" },
   { href: "/iletisim", label: "İLETİŞİM" },
 ];
 
@@ -65,54 +52,6 @@ export default function Navbar() {
             />
           </Link>
         </div>
-
-        {/* Desktop Nav */}
-        <div className="hidden items-center gap-1 md:flex">
-          {navLinks.map((link) =>
-            link.children ? (
-              <div
-                key={link.href}
-                className="group relative"
-                onMouseEnter={() => setDropdownOpen(true)}
-                onMouseLeave={() => setDropdownOpen(false)}
-              >
-                <Link
-                  href={link.href}
-                  className={`nav-link flex items-center gap-1 ${
-                    isActive(link.href) ? "active" : ""
-                  }`}
-                >
-                  {link.label}
-                  <ChevronDown className="h-3 w-3" />
-                </Link>
-                <div
-                  className={`absolute top-full left-0 w-[250px] border-0 bg-primary p-[15px_10px] transition-all duration-300 ${
-                    dropdownOpen
-                      ? "visible translate-y-0 opacity-100"
-                      : "invisible translate-y-5 opacity-0"
-                  }`}
-                >
-                  {link.children.map((child) => (
-                    <Link
-                      key={child.href}
-                      href={child.href}
-                      className="block border-b border-white/[0.02] px-[15px] py-[9px] text-[15px] text-gray-warm transition-all hover:pl-[20px] hover:text-accent"
-                    >
-                      {child.label}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            ) : (
-              <Link
-                key={link.href}
-                href={link.href}
-                className={`nav-link ${isActive(link.href) ? "active" : ""}`}
-              >
-                {link.label}
-              </Link>
-            )
-          )}
 
           {/* Social icons separator */}
           <div className="ml-4 flex items-center gap-3 border-l border-primary-light pl-5">
