@@ -21,7 +21,6 @@ export default function Navbar() {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [dropdownOpen, setDropdownOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 100);
@@ -58,34 +57,15 @@ export default function Navbar() {
 
         {/* Desktop Nav */}
         <div className="hidden items-center gap-1 md:flex">
-          {navLinks.map((link) =>
-            link.children ? (
-              <div
-                key={link.href}
-                className="group relative"
-                onMouseEnter={() => setDropdownOpen(true)}
-                onMouseLeave={() => setDropdownOpen(false)}
-              >
-                <Link
-                  href={link.href}
-                  className={`nav-link flex items-center gap-1 ${
-                    isActive(link.href) ? "active" : ""
-                  }`}
-                >
-                  {link.label}
-                  <ChevronDown className="h-3 w-3" />
-                </Link>
-              </div>
-            ) : (
-              <Link
-                key={link.href}
-                href={link.href}
-                className={`nav-link ${isActive(link.href) ? "active" : ""}`}
-              >
-                {link.label}
-              </Link>
-            )
-          )}
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={`nav-link ${isActive(link.href) ? "active" : ""}`}
+            >
+              {link.label}
+            </Link>
+          ))}
 
           {/* Social icons separator */}
           <div className="ml-4 flex items-center gap-3 border-l border-primary-light pl-5">
@@ -131,17 +111,14 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="bg-primary px-[15px] pb-[30px] pt-[15px] md:hidden">
           {navLinks.map((link) => (
-            <div key={link.href}>
-              <Link
-                href={link.href}
-                onClick={() => setMobileOpen(false)}
-                className={`nav-link block py-2 !text-gray-warm ${
-                  isActive(link.href) ? "!text-accent" : ""
-                }`}
-              >
-                {link.label}
-              </Link>
-            </div>
+            <Link
+              key={link.href}
+              href={link.href}
+              onClick={() => setMobileOpen(false)}
+              className={`nav-link block py-2 !text-gray-warm ${isActive(link.href) ? "!text-accent" : ""}`}
+            >
+              {link.label}
+            </Link>
           ))}
         </div>
       )}
