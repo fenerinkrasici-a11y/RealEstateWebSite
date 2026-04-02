@@ -81,7 +81,7 @@ export default function Footer() {
               <ul className="social">
                 <li>
                   <a
-                    href="https://www.instagram.com/modolith_structures/"
+                    href="https://www.instagram.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Instagram"
@@ -97,7 +97,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/modolith_structures/"
+                    href="https://www.linkedin.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[13px] text-white transition-colors hover:text-accent"
