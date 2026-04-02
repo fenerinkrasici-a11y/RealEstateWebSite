@@ -41,7 +41,7 @@ export default function HeroVideo() {
       {/* Social icons */}
       <div className="slider-social">
         <a
-          href="https://www.instagram.com/modolith_structures/"
+          href="https://www.instagram.com/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
@@ -51,7 +51,7 @@ export default function HeroVideo() {
           </svg>
         </a>
         <a
-          href="https://www.linkedin.com/modolith_structures/"
+          href="https://www.linkedin.com/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
