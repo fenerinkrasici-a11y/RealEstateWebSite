@@ -59,7 +59,7 @@ export default function ContactPage() {
                     </h6>
                     <p className="mb-0">
                       <a
-                        href="tel:+18325198584"
+                        href="tel:+905354905728"
                         className="transition-colors hover:text-accent"
                       >
                         +90 535 490 57 28
