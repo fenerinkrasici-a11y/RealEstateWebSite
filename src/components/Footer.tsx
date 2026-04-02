@@ -37,7 +37,7 @@ export default function Footer() {
           </p>
           <p className="mb-0">
             <a
-              href="tel:+18325198584"
+              href="tel:+905354905728"
               className="transition-colors hover:text-accent"
             >
               +90 535 490 57 28
@@ -45,7 +45,7 @@ export default function Footer() {
           </p>
           <p className="mb-0">
             <a
-              href="tel:+18325198584"
+              href="tel:+905366243828"
               className="transition-colors hover:text-accent"
             >
               +90 536 624 38 28
