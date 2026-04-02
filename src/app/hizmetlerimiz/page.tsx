@@ -62,7 +62,7 @@ export default function ServicesPage() {
                   <div className="butn-dark">
                     <Link href="/iletisim">
                       <span>
-                         <ArrowRight className="inline h-4 w-4" />
+                        Daha Fazla <ArrowRight className="inline h-4 w-4" />
                       </span>
                     </Link>
                   </div>
