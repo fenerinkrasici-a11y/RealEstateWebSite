@@ -82,31 +82,30 @@ export default function Home() {
           </ScrollReveal>
           <ScrollReveal>
             <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
-              {services.map((service) => (
-                <Link
-                  key={service.slug}
-                  href={`/services#${service.slug}`}
-                  className="service-card"
-                  style={{
-                    backgroundImage: `url(${service.image})`,
-                  }}
-                >
-                  <div className="service-content">
-                    <div className="mb-5 flex justify-center">
-                      <Image
-                        src="/images/logos/logo.png"
-                        alt=""
-                        width={200}
-                        height={200}
-                        className="!h-[60px] !w-[60px] object-contain opacity-80"
-                      />
-                    </div>
-                    <h5>{service.shortTitle}</h5>
-                    <p>{service.description.split(".")[0]}.</p>
+            {services.map((service) => (
+              <div
+                key={service.slug}
+                className="service-card"
+                style={{
+                  backgroundImage: `url(${service.image})`,
+                }}
+              >
+                <div className="service-content">
+                  <div className="mb-5 flex justify-center">
+                    <Image
+                      src="/images/logos/logo.png"
+                      alt=""
+                      width={200}
+                      height={200}
+                      className="!h-[60px] !w-[60px] object-contain opacity-80"
+                    />
                   </div>
-                </Link>
-              ))}
-            </div>
+                  <h5>{service.shortTitle}</h5>
+                  <p>{service.description.split(".")[0]}.</p>
+                </div>
+              </div>
+            ))}
+          </div>
           </ScrollReveal>
         </div>
       </section>
