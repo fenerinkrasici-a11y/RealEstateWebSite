@@ -164,38 +164,41 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="section-padding">
-        <div className="mx-auto max-w-[1140px] px-4">
-          <div className="relative mb-[30px] text-center">
-            <div className="section-number">.04</div>
-            <div className="section-subtitle">Uzmanlarımız</div>
-            <div className="section-title">Yönetİm Ekİbİ</div>
-          </div>
-
-          <ScrollReveal>
-            <div className="grid grid-cols-2 gap-8 md:grid-cols-3">
-              {team.map((member) => (
-                <div key={member.name} className="team-card">
-                  <div className="relative overflow-hidden" style={{ height: "380px" }}>
-                    <Image
-                      src={member.image}
-                      alt={member.name}
-                      fill
-                      className="object-cover object-top"
-                      sizes="(max-width: 768px) 100vw, 33vw"
-                    />
-                  </div>
-                  <div className="team-info">
-                    <h5>{member.name}</h5>
-                    <p className="text-accent">{member.title}</p>
-                  </div>
-                </div>
-              ))}
+       {/* Team Section */}
+        <section className="section-padding">
+          <div className="mx-auto max-w-[1140px] px-4">
+            <div className="relative mb-[30px] text-center">
+              <div className="section-number">.04</div>
+              <div className="section-subtitle">Uzmanlarımız</div>
+              <div className="section-title">Yönetİm Ekİbİ</div>
             </div>
-          </ScrollReveal>
-        </div>
-      </section>
+        
+            <ScrollReveal>
+              <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
+                {team.map((member) => (
+                  <div key={member.name} className="team-card">
+                    <div
+                      className="relative w-full overflow-hidden"
+                      style={{ height: "380px" }}
+                    >
+                      <Image
+                        src={member.image}
+                        alt={member.name}
+                        fill
+                        className="object-cover object-top"
+                        sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+                      />
+                    </div>
+                    <div className="team-info">
+                      <h5>{member.name}</h5>
+                      <p className="text-accent">{member.title}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </ScrollReveal>
+          </div>
+        </section>
     </>
   );
 }
