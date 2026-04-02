@@ -70,7 +70,7 @@ export default function Navbar() {
           {/* Social icons separator */}
           <div className="ml-4 flex items-center gap-3 border-l border-primary-light pl-5">
             <a
-              href="https://www.instagram.com/modolith_structures/"
+              href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[13px] text-white transition-colors hover:text-accent"
@@ -85,7 +85,7 @@ export default function Navbar() {
               </svg>
             </a>
             <a
-          href="https://www.linkedin.com/modolith_structures/"
+          href="https://www.linkedin.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-[13px] text-white transition-colors hover:text-accent"
