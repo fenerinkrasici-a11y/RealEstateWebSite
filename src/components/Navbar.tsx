@@ -10,7 +10,10 @@ const navLinks = [
   { href: "/", label: "Anasayfa" },
   { href: "/hakkimizda", label: "Hakkımızda" },
   { href: "/hizmetlerimiz", label: "HİZMETLERİMİZ" },
-  { href: "/projeler", label: "Projeler" },
+  {
+    href: "/projeler",
+    label: "Projeler"
+  },
   { href: "/iletisim", label: "İLETİŞİM" },
 ];
 
@@ -52,6 +55,37 @@ export default function Navbar() {
             />
           </Link>
         </div>
+
+        {/* Desktop Nav */}
+        <div className="hidden items-center gap-1 md:flex">
+          {navLinks.map((link) =>
+            link.children ? (
+              <div
+                key={link.href}
+                className="group relative"
+                onMouseEnter={() => setDropdownOpen(true)}
+                onMouseLeave={() => setDropdownOpen(false)}
+              >
+                <Link
+                  href={link.href}
+                  className={`nav-link flex items-center gap-1 ${
+                    isActive(link.href) ? "active" : ""
+                  }`}
+                >
+                  {link.label}
+                  <ChevronDown className="h-3 w-3" />
+                </Link>
+              </div>
+            ) : (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`nav-link ${isActive(link.href) ? "active" : ""}`}
+              >
+                {link.label}
+              </Link>
+            )
+          )}
 
           {/* Social icons separator */}
           <div className="ml-4 flex items-center gap-3 border-l border-primary-light pl-5">
@@ -107,20 +141,6 @@ export default function Navbar() {
               >
                 {link.label}
               </Link>
-              {link.children && (
-                <div className="pl-4">
-                  {link.children.map((child) => (
-                    <Link
-                      key={child.href}
-                      href={child.href}
-                      onClick={() => setMobileOpen(false)}
-                      className="block py-2 text-[15px] text-gray-warm transition-colors hover:text-accent"
-                    >
-                      {child.label}
-                    </Link>
-                  ))}
-                </div>
-              )}
             </div>
           ))}
         </div>
