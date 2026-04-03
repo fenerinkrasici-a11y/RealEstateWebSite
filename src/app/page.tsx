@@ -8,10 +8,7 @@ import { projects } from "@/data/projects";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Karadeniz İnşaat ",
-  description:
-    "Standing Structures. Setting Standards. Expert structural steel erection, pre-engineered metal buildings, general contracting, and construction consulting in Houston, TX.",
-};
+  title: "Karadeniz İnşaat "};
 const partners = [
   { name: "T.C. ÇEKMEKÖY BELEDİYESİ", logo: "/images/partners/cekmekoy.png" },
   { name: "ULUTAŞLAR İNŞAAT BETON", logo: "/images/partners/ulutaslar.jpg" },
