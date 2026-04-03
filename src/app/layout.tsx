@@ -23,11 +23,9 @@ const didactGothic = Didact_Gothic({
 export const metadata: Metadata = {
   metadataBase: new URL("https://karadenizinşaatvegayrimankul.com"),
   title: {
-    default: "Karadeniz İnşaat | Houston General Contractor",
+    default: "Karadeniz İnşaat ",
     template: "%s | Karadeniz İnşaat",
   },
-  description:
-    "Karadeniz İnşaat - Standing Structures. Setting Standards. Expert structural steel erection, pre-engineered metal buildings, general contracting, and construction consulting in Houston, TX.",
   keywords: [
     "Karadeniz İnşaat",
     "Houston general contractor",
@@ -44,9 +42,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://karadenizinşaatvegayrimankul.com",
     siteName: "Karadeniz İnşaat",
-    title: "Karadeniz İnşaat | Houston General Contractor",
-    description:
-      "Standing Structures. Setting Standards. Expert construction services throughout Houston and the greater Houston area.",
+    title: "Karadeniz İnşaat ",
     images: [
       {
         url: "/images/services/Modolith-Image-108.jpg",
@@ -76,15 +72,13 @@ const jsonLd = {
   url: "https://karadenizinsaatvegayrimenkul.com",
   logo: "https://modolith.com/images/logos/Modolith-Structures.webp",
   image: "https://modolith.com/images/services/Modolith-Image-108.jpg",
-  description:
-    "Standing Structures. Setting Standards. Expert structural steel erection, pre-engineered metal buildings, general contracting, and construction consulting.",
-  telephone: "+1-832-519-8584",
-  email: "info@modolith.com",
-  foundingDate: "2021",
+  telephone: "+90 535 490 57 28",
+  email: "info@karadenizinsaatvegayrimenkul.com",
+  foundingDate: "2009",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "1500 Waugh Dr. Suite 110",
-    addressLocality: "Houston",
+    streetAddress: "Güngören, Tolgahan Sk. No:1 ofis 25, 34788 Çekmeköy/İstanbul",
+    addressLocality: "İstanbul",
     addressRegion: "TX",
     postalCode: "77019",
     addressCountry: "US",
