@@ -106,8 +106,8 @@ details:
   slug: "alemdag-konut-projesi",
   title: "ALEMDAĞ KONUT PROJESİ",
   location: "İstanbul, Türkiye",
-  client: "2024",
-  type: "Kat Karşılığı İnşaat Projesi",
+  client: "2025",
+  type: "Kentsel Dönüşüm Projesi",
   description:
     "Alemdağ Konut Projesi kapsamında mevcut yapı stokunun yenilenmesiyle modern, güvenli ve estetik yaşam alanları oluşturuldu. Proje, çağdaş mimarisi ve yüksek kalite standartlarıyla bölgeye değer kattı.",
 
@@ -135,7 +135,7 @@ details:
   slug: "alemdag-yasam-merkezi",
   title: "ALEMDAĞ YAŞAM MERKEZİ PROJESİ",
   location: "İstanbul, Türkiye",
-  client: "2025",
+  client: "2026",
   type: "Kentsel Dönüşüm Projesi",
   description:
     "Alemdağ Yaşam Merkezi Projesi kapsamında eski yapıların yerine modern konut ve ticari alanlar inşa edilerek bölgeye yeni bir yaşam merkezi kazandırıldı. Proje, fonksiyonel tasarımı ve kaliteli uygulamalarıyla öne çıkmaktadır.",
@@ -151,7 +151,7 @@ details:
   ],
 
   details:
-    "Kentsel dönüşüm kapsamında gerçekleştirilen proje, modern yaşam standartlarına uygun şekilde tasarlanmış olup tüm inşaat süreçleri Karadeniz İnşaat kalite standartları doğrultusunda tamamlanmıştır.",
+    "İnşaat çalışmaları devam eden proje, Karadeniz İnşaat tarafından modern mühendislik ve kalite standartları doğrultusunda yürütülmektedir. Projenin önümüzdeki aylarda tamamlanarak teslim edilmesi planlanmaktadır.",
 
   image: "/images/projects/almdg/almdg1.jpeg",
   images: [
