@@ -103,6 +103,69 @@ details:
     ],
   },
   {
+  slug: "alemdag-konut-projesi",
+  title: "ALEMDAĞ KONUT PROJESİ",
+  location: "İstanbul, Türkiye",
+  client: "2024",
+  type: "Kat Karşılığı İnşaat Projesi",
+  description:
+    "Alemdağ Konut Projesi kapsamında mevcut yapı stokunun yenilenmesiyle modern, güvenli ve estetik yaşam alanları oluşturuldu. Proje, çağdaş mimarisi ve yüksek kalite standartlarıyla bölgeye değer kattı.",
+
+  scope: [
+    "Mevcut yapıların yıkımı ve hafriyat çalışmaları",
+    "Mimari ve mühendislik proje tasarımı",
+    "Betonarme yapı imalatları",
+    "Dış cephe ve yalıtım uygulamaları",
+    "Elektrik ve mekanik tesisat işleri",
+    "İç mekan ince işler ve dekorasyon",
+    "Peyzaj ve çevre düzenlemesi",
+  ],
+
+  details:
+    "Proje, planlama aşamasından teslim sürecine kadar Karadeniz İnşaat tarafından yönetildi. Kalite, güvenlik ve müşteri memnuniyeti odaklı çalışmalarla modern bir yaşam alanı oluşturuldu.",
+
+  image: "/images/projects/alemdag/alemdag1.jpeg",
+  images: [
+    "/images/projects/alemdag/alemdag1.jpeg",
+    "/images/projects/alemdag/alemdag2.jpeg",
+    "/images/projects/alemdag/alemdag3.jpeg",
+  ],
+},
+{
+  slug: "alemdag-yasam-merkezi",
+  title: "ALEMDAĞ YAŞAM MERKEZİ PROJESİ",
+  location: "İstanbul, Türkiye",
+  client: "2025",
+  type: "Kentsel Dönüşüm Projesi",
+  description:
+    "Alemdağ Yaşam Merkezi Projesi kapsamında eski yapıların yerine modern konut ve ticari alanlar inşa edilerek bölgeye yeni bir yaşam merkezi kazandırıldı. Proje, fonksiyonel tasarımı ve kaliteli uygulamalarıyla öne çıkmaktadır.",
+
+  scope: [
+    "Yıkım ve saha hazırlık çalışmaları",
+    "Mimari ve statik proje uygulamaları",
+    "Betonarme ve kaba yapı imalatları",
+    "Dış cephe kaplama ve yalıtım işleri",
+    "Elektrik ve mekanik sistemlerin kurulumu",
+    "İç mekan ince işler",
+    "Çevre düzenleme ve peyzaj uygulamaları",
+  ],
+
+  details:
+    "Kentsel dönüşüm kapsamında gerçekleştirilen proje, modern yaşam standartlarına uygun şekilde tasarlanmış olup tüm inşaat süreçleri Karadeniz İnşaat kalite standartları doğrultusunda tamamlanmıştır.",
+
+  image: "/images/projects/almdg/almdg1.jpeg",
+  images: [
+    "/images/projects/almdg/almdg1.jpeg",
+    "/images/projects/almdg/almdg2.jpeg",
+    "/images/projects/almdg/almdg3.jpeg",
+    "/images/projects/almdg/almdg4.jpeg",
+    "/images/projects/almdg/almdg5.jpeg",
+    "/images/projects/almdg/almdg6.jpeg",
+    "/images/projects/almdg/almdg7.jpeg",
+    "/images/projects/almdg/almdg8.jpeg",
+  ],
+},
+  {
     slug: "gungoren-sari-apartman",
     title: "GÜNGÖREN SARI APARTMAN PROJESİ",
     location: "İstanbul, Türkiye",
