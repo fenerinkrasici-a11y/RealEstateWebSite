@@ -153,7 +153,7 @@ details:
   details:
     "İnşaat çalışmaları devam eden proje, Karadeniz İnşaat tarafından modern mühendislik ve kalite standartları doğrultusunda yürütülmektedir. Projenin önümüzdeki aylarda tamamlanarak teslim edilmesi planlanmaktadır.",
 
-  image: "/images/projects/almdg/almdg1.jpeg",
+  image: "/images/projects/almdg/almdg3.jpeg",
   images: [
     "/images/projects/almdg/almdg1.jpeg",
     "/images/projects/almdg/almdg2.jpeg",
