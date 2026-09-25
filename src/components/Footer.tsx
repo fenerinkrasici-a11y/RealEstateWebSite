@@ -35,22 +35,6 @@ export default function Footer() {
           <p className="mb-0">
             Güngören, Tolgahan Sk. No:1 ofis 25, 34788 Çekmeköy/İstanbul
           </p>
-          <p className="mb-0">
-            <a
-              href="tel:+905354905728"
-              className="transition-colors hover:text-accent"
-            >
-              +90 535 490 57 28
-            </a>
-          </p>
-          <p className="mb-0">
-            <a
-              href="tel:+905366243828"
-              className="transition-colors hover:text-accent"
-            >
-              +90 536 624 38 28
-            </a>
-          </p>
           <p className="mb-16">
             <a
               href="mailto:info@karadenizinsaatvegayrimenkul.com"
