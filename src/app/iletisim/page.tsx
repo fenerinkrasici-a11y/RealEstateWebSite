@@ -55,15 +55,12 @@ export default function ContactPage() {
                     <h6 className="mb-2 text-[14px] font-light uppercase tracking-[3px] text-white"
                       style={{ fontFamily: "var(--font-heading), 'Oswald', sans-serif" }}
                     >
-                      telefon
+                      
                     </h6>
                     <p className="mb-0">
                       <a
-                        href="tel:+905354905728"
-                        className="transition-colors hover:text-accent"
-                      >
-                        +90 535 490 57 28
-                      </a>
+                      
+                        className="transition-colors hover:text-accent" </p>a>
                     </p>
                   </div>
                   <div className="border-l-2 border-accent bg-primary-light px-6 py-5">
